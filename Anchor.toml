@@ -5,14 +5,14 @@ seeds = true
 skip-lint = false
 
 [programs.localnet]
-account_voter = "6dPHkxoJGDyt4h37htgrm62zJU6aLdfHFcfX7KcHcyae"
+account_voter = "GNATWpZAcWZZjrC5j774mw7NUpM3C9UQAcEVw6HiBmyW"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "Localnet"
-wallet = "/Users/nicolasvilla/.config/solana/id.json"
+wallet = "/home/debian/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
