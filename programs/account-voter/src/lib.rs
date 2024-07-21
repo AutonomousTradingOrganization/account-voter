@@ -38,11 +38,13 @@ pub struct Initialize<'info> {
 #[account]
 #[derive(InitSpace)]
 pub struct NewAccount {
-    pseudo: [u8; 256],
-    mail: [u8; 256],
-    balance_total: u16,
-    balance_sol: u16,
-    total_trade: u16,
-    total_participation: u16,
-    win_trade: u16,
+    #[max_len(22)]
+    pub pseudo: String,
+    #[max_len(51)]
+    pub mail: String,
+    pub balance_total: u16,
+    pub balance_sol: u16,
+    pub total_trade: u16,
+    pub total_participation: u16,
+    pub win_trade: u16,
 }
