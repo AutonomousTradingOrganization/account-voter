@@ -5,7 +5,7 @@ seeds = true
 skip-lint = false
 
 [programs.devnet]
-account_voter = "BpemDQtKwdVzWkT7pxyddsQf1boX9bS7sENHaxra2rrs"
+account_voter = "9cdkzeKvJaA9evco79NmzG4sGuDSuAQokvgsV8WSk8N3"
 
 [programs.localnet]
 account_voter = "BpemDQtKwdVzWkT7pxyddsQf1boX9bS7sENHaxra2rrs"

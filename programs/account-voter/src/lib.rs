@@ -2,7 +2,7 @@ use anchor_lang::prelude::*;
 
 // This is your program's public key and it will update
 // automatically when you build the project.
-declare_id!("BpemDQtKwdVzWkT7pxyddsQf1boX9bS7sENHaxra2rrs");
+declare_id!("9cdkzeKvJaA9evco79NmzG4sGuDSuAQokvgsV8WSk8N3");
 
 #[program]
 mod account_voter {
